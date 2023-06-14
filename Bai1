@@ -1,0 +1,20 @@
+using System;
+
+namespace GIT_CSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //CS1_2_08: Viết chương trình tính khoảng cách từ 1 điểm đến 1 đường thẳng
+            Console.WriteLine("Nhap vao diem M(x, y) va he so a, b, c: ");
+            double x = double.Parse(Console.ReadLine());
+            double y = double.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
+            double c = double.Parse(Console.ReadLine());
+            double d = Math.Abs(a * x + b * y + c) / Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
+            Console.WriteLine($"Khoang cach cua M toi duong thang d la: {Math.Round(d, 3)}");
+        }
+    }
+}
