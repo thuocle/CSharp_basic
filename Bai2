@@ -1,0 +1,27 @@
+//CS01-5-02: Bài toán xếp loại học lực
+            Console.WriteLine("Nhap vao diem Toan Van Anh: ");
+            double t = double.Parse(Console.ReadLine());
+            double v = double.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
+            double avg = (t + v + a) / 3;
+            Console.Write($"Diem trung binh cua hoc sinh la {Math.Round(avg, 2)}. Hoc luc cua hoc sinh la ");
+            if (avg <= 4)
+            {
+                Console.Write("Yeu");
+            }
+            else if (avg > 4 && avg <= 6.5)
+            {
+                Console.Write("TB");
+            }
+            else if (avg > 6.5 && avg <= 8)
+            {
+                Console.Write("Kha");
+            }
+            else if (avg > 8 && avg <= 9)
+            {
+                Console.Write("Gioi");
+            }
+            else
+            {
+                Console.Write("Xuat sac");
+            }
