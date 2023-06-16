@@ -1,0 +1,30 @@
+//CS01-5-06: Kiểm tra sự tương giao giữa 2 đường thẳng
+            *//*Console.WriteLine("Nhap vao he so cua d1: ");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap vao he so cua d2: ");
+            int a1 = int.Parse(Console.ReadLine());
+            int b1 = int.Parse(Console.ReadLine());
+            if(a1 != 0 && a != 0 )
+            {
+                if (a1 * a == -1)
+                {
+                    Console.WriteLine("d1 va d2 vuong goc");
+                }
+                else if(a1 != a)
+                {
+                    Console.WriteLine("d1 va d2 cat nhau");
+                }
+                else if (a1 == a && b1 != b)
+                {
+                    Console.WriteLine("d1 va d2 song song");
+                }
+                else if (a1 == a && b1 == b)
+                {
+                    Console.WriteLine("d1 va d2 trung nhau");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Khong hop le");
+            }*//*
