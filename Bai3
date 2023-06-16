@@ -1,0 +1,30 @@
+ //S01-5-05: Kiểm tra tam giác
+            */  Tổng 3 góc của một tam giác bằng 180 độ.
+-    Tam giác đều là tam giác có mỗi góc đều bằng 60 độ.
+-    Tam giác cân là tam giác có hai góc ở đáy bằng nhau.
+-    Tam giác vuông là tam giác có 1 góc bằng 90 độ.*/
+
+            Console.WriteLine("Nhap vao 3 goc cua tam giac: ");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+            if(a + b + c != 180)
+            {
+                Console.WriteLine("Khong hop le!");
+            }
+            else if(a == 90 || c == 90 || b == 90)
+            {
+                Console.WriteLine("Day la tam giac vuong!");
+            }
+            else if (a == 60 && c == 60 && b == 60)
+            {
+                Console.WriteLine("Day la tam giac deu!");
+            }else if(a==b || a==c || b == c)
+            {
+                Console.WriteLine("Day la tam giac can!");
+            }
+            else
+            {
+                Console.WriteLine("Tam giac thuong");
+            }
+
