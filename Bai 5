@@ -1,0 +1,39 @@
+  //CS01-5-10: Kiểm tra 1 tháng có bao nhiêu ngày
+
+            *//*Console.WriteLine("Nhap vao nam va thang: ");
+            int year = int.Parse(Console.ReadLine());
+            int month = int.Parse(Console.ReadLine());
+            int dayOfMonth = 0;
+            if (year >= 1000 && year <= 2023 && month > 0 && month <= 12)
+            {
+                if (year % 4 == 0)
+                {
+                    if (month == 2)
+                    {
+                        dayOfMonth = 29;
+                    }
+                }
+                switch (month)
+                {
+                    case 1:
+                    case 3:
+                    case 5:
+                    case 7:
+                    case 8:
+                    case 10:
+                    case 12:
+                        dayOfMonth = 31;
+                        break;
+                    case 2:
+                        dayOfMonth = 28;
+                        break;
+                    default:
+                        dayOfMonth = 30;
+                        break;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Khong hop le");
+            }
+            Console.WriteLine($"So ngay cua thang {month} nam {year} la: {dayOfMonth}");*//*
