@@ -1,0 +1,20 @@
+//Viết chương trình C# để đếm số chữ cái, số chữ số, số ký tự đặc biệt trong một chuỗi
+            *//*int cs = 0, cc = 0, kt = 0;
+            string s = "baby89**baby";
+            char[] charArr = s.ToCharArray();
+            foreach (char item in charArr)
+            {
+                if (char.IsDigit(item))
+                {
+                    cs++;
+                }
+                else if (char.IsLetter(item))
+                {
+                    cc++;
+                }
+                else
+                {
+                    kt++;
+                }
+            }
+            Console.WriteLine($"{s} co {cs} chu so, {cc} chu cai va {kt} ky tu");*//*
