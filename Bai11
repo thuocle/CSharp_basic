@@ -1,0 +1,24 @@
+//CS1_7_11: Sắp xếp các chuỗi theo thứ tự từ điển
+            *//*Console.WriteLine("Nhap vao 3 chuoi: ");
+            string[] s = new string[3];
+            for (int i = 0; i < s.Length; i++)
+            {
+                s[i] = Console.ReadLine();
+            }
+            for (int i = 0; i < s.Length - 1; i++)
+            {
+                for (int j = i+1; j < s.Length; j++)
+                {
+                    if (s[i].CompareTo(s[j]) > 0)
+                    {
+                        string tmp = s[i];
+                        s[i] = s[j];
+                        s[j] = tmp;
+                    }
+                }
+            }
+            Console.WriteLine($"3 chuoi sau khi sap xep:");
+            foreach (string item in s)
+            {
+                Console.WriteLine($"{item} ");
+            }*//*
