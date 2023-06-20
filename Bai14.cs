@@ -3,7 +3,7 @@
             Đầu vào:  “   Nguyen    DuC TOAN    ” 
             Đầu ra: nguyenductoan@hvitclan.com*/
 
-            /*string s = "   Nguyen    DuC TOAN   ";
+            string s = "   Nguyen    DuC TOAN   ";
             string news = s.Trim().Replace(" ","").ToLower();
             string email = string.Concat(news, "@hvitclan.com");
-            Console.WriteLine(email);*//*
+            Console.WriteLine(email);
