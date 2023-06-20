@@ -7,8 +7,8 @@ namespace CSharpBasic
         static void Main(string[] args)
         {
             //1. tong hai so
-            *//*  double a = 1.1, b = 5;
-              Console.WriteLine($"Tong cua hai so {a} va {b} la : { a + b}");*//*
+            double a = 1.1, b = 5;
+              Console.WriteLine($"Tong cua hai so {a} va {b} la : { a + b}");
 
             //2.lap phuong so nguyen
             *//*Console.WriteLine("Nhap vao so nguyen n: ");
